@@ -1,745 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>step-project</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/one-more.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+<body>
 
-<body class="body_page">
-    <header>
-        <div class="menu">
-            <div class="menu_content">
-                <div class="logo_wrapper">
-                    <a class="logo" href="#"><img src="./assets/images/logo.svg" alt="logo" width="58">
-                        <p class="logo_letter">H</p>
-                        <p class="logo_part">the</p>
-                        <p class="logo_ham">Ham</p>
-                    </a>
-                </div>
-                <nav class="nav1_wrapper">
-                    <ul class="nav1_menu">
-                        <li class="nav1_list"><a class="nav1_link" href="#">home</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#">about</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#">blog</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#">skills</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#">service</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#">work</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#">testimonial</a></li>
-                        <li class="nav1_list"><a class="nav1_link" href="#"><img src="./assets/images/search_icon.png"
-                                    alt="search"></a></li>
-                    </ul>
-                </nav>
-
+<header class="header">
+    <div class="dark-bckg">
+        <nav class="navbar">
+            <div class="container navbar-container">
+                <a href="#" class="logo link"><span>H</span>
+                    <h1 class="reset-margin"><span class="the">the</span>Ham</h1></a>
+                <menu class="navbar-menu reset-margin">
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">home</a></li>
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">About</a></li>
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">Blog</a></li>
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">Skills</a></li>
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">Service</a></li>
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">Work</a></li>
+                    <li class="menu-item remove-list-markers"><a href="#" class="link">Testimonial</a></li>
+                    <li class="menu-item remove-list-markers search-icon"><a href="#" class="link">&#8981;</a></li>
+                </menu>
             </div>
-        </div>
-
-        <div class="intro_title">
-
-            <div class="first_title">
-                <h3>The Ham is</h3>
-                <h3>Wordpress theme</h3>
+        </nav>
+        <section class="slogan">
+            <div class="container">
+                <p class="slogan-text-first reset-margin">The Ham is <span>Wordpress theme</span></p>
+                <p class="slogan-text-second reset-margin">we are creative</p>
+                <p class="slogan-text-third reset-margin">Just Buy And Enjoy These Awesome Features</p>
             </div>
-            <h1>we are creative</h1>
-            <h3>Just Buy And Enjoy These Awesome Features</h3>
-            <div class="btn_wrapper">
-                <a class="left_btn" href="#">EXPLORE NOW</a>
-                <a class="right_btn" href="#">purchase now</a>
+            <div class="container">
+                <a href="#" class="link button explore-button">EXPLORE NOW</a>
+                <a href="#" class="link button purchase-button">purchase now</a>
             </div>
-        </div>
-    </header>
-
-    <main>
-
-        <div class="box_wrapper">
-
-            <a class="box box_link1" href="#">
-                <img src="./assets/images/pointer_intro.png" alt="pointer">
-                <p> Different theme option </p>
-            </a>
-            <a class="box box_link2" href="#">
-                <img src="./assets/images/crystal_into.png" alt="customize">
-                <p> fully customizable </p>
-            </a>
-            <a class="box box_link3" href="#">
-                <img src="./assets/images/lamp_intro.png" alt="support-link">
-                <p> unlimited support </p>
-            </a>
-            <a class="box box_link4" href="#">
-                <img src="./assets/images/device_intro.png" alt="device-link">
-                <p> responsive all device </p>
-            </a>
-        </div>
-
-        <!-- Our Services -->
-
-        <section class="container">
-            <h1 class="service_title">Our Services</h1>
-
-            <nav class="service_nav">
-                <ul class="service_menu">
-                    <li class="service_list"><a chapter-tab="1" class="service_list_link active" href="#">Web Design</a>
-                    </li>
-                    <li class="service_list"><a chapter-tab="2" class="service_list_link" href="#">Graphic Design</a>
-                    </li>
-                    <li class="service_list"><a chapter-tab="3" class="service_list_link" href="#">Online Support</a>
-                    </li>
-                    <li class="service_list"><a chapter-tab="4" class="service_list_link" href="#">App Design</a></li>
-                    <li class="service_list"><a chapter-tab="5" class="service_list_link" href="#">Online Marketing</a>
-                    </li>
-                    <li class="service_list"><a chapter-tab="6" class="service_list_link" href="#">Seo Service</a></li>
-
-                </ul>
-            </nav>
-
-            <div class="services_chapter_wrapper">
-                <p chapter-tab-content="1" class="services_chapter active">
-                    <img class="services_pic" src="./assets/images/services_pic.png" alt="services_pic" width="192">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod
-                    tempor incididunt ut labore et
+        </section>
+    </div>
+</header>
+<main class="main">
+    <section class="four-options">
+        <div class="four-options-item"><img src="./images/polygons/Combined%20shape%20629.png"><br>theme option</div>
+        <div class="four-options-item"><img src="./images/polygons/Combined%20shape%201172.png"><br>omizable</div>
+        <div class="four-options-item"><img src="./images/polygons/Combined%20shape%201179.png"><br>support</div>
+        <div class="four-options-item"><img src="./images/polygons/Combined%20shape%201102.png"><br>all device</div>
+    </section>
+    <section class="service">
+        <div class="container">
+            <h2 class="section-heading">Our Services</h2>
+            <ul class="service-tabs reset-margin remove-list-markers">
+                <li data-services="1" class="service-tabs-item active">Web Design</li>
+                <li data-services="2" class="service-tabs-item">Graphic Design</li>
+                <li data-services="3" class="service-tabs-item">Online Support</li>
+                <li data-services="4" class="service-tabs-item">App Design</li>
+                <li data-services="5" class="service-tabs-item">Online Marketing</li>
+                <li data-services="6" class="service-tabs-item">Seo Service</li>
+            </ul>
+            <ul class="service-tabs-content reset-margin remove-list-markers">
+                <li data-services="1" class="service-tabs-content-item active"><img alt="content-pic"
+                                                                  src="http://placekitten.com/g/192/139?image=1">01
+                    Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
+                    deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                    laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </li>
+                <li data-services="2" class="service-tabs-content-item"><img alt="content-pic"
+                                                           src="http://placekitten.com/g/192/139?image=2">02 Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                     mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
-                    sunt
-                    in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem
-                    ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
-                    mollit anim id est laborum.
-                </p>
-                <p chapter-tab-content="2" class="services_chapter">
-                    <img class="services_pic" src="./assets/images/emhyr.jpg" alt="services_pic" width="192">
-                    Эмгыр вар Эмрейс, Деитвен Аддан ын Карн аэп Морвудд
-                    (ориг. Emhyr var Emreis, Deithwen Addan yn Carn aep Morvudd, со Старшей речи — Белое Пламя, Пляшущее
-                    на Курганах Врагов, [ɛm̥ɪr var ɛmrɛis]) — персонаж литературной саги и игровой серии, император
-                    Нильфгаарда из династии Эмрейсов, правивший во второй половине XIII века.Родился около 1220 года.
-                    Сын Фергуса вар Эмрейса, муж цинтрийской принцессы Паветты, затем Лже-Цириллы, отец Цириллы, кузен
-                    Анны Генриетты и Сильвии Анны. Взошел на престол приблизительно в 1257 году.Сумел создать отличную
-                    армию и генеральный штаб, эффективное правительство, возвысил многих способных людей, невзирая на их
-                    низкое происхождение. Умер в 1290-ых годах, преемником его стал Морвран Воорхис.
-
-
-
-                </p>
-                <p chapter-tab-content="3" class="services_chapter">
-                    <img class="services_pic" src="./assets/images/cirilla.jpg" alt="services_pic" width="192">
-
-                    Цирилла Фиона Элен Рианнон, более известная как Цири (ориг. Ciri) — один из центральных персонажей
-                    литературной саги и второй протагонист игры Ведьмак 3: Дикая Охота.
-
-                    Дочь цинтрийской принцессы Паветты и князя Дани, внучка Калантэ и Рёгнера из Эббинга, королей
-                    Цинтры, дитя Старшей Крови, потомок Лары Доррен аэп Шиадаль и Крегеннана из Леды.
-
-
-                </p>
-                <p chapter-tab-content="4" class="services_chapter">
-                    <img class="services_pic" src="./assets/images/Eskel.jpg" alt="services_pic" width="192">
-                    Эскель (ориг. Eskel) — второстепенный персонаж
-                    литературной саги, а также игр Ведьмак и Ведьмак 3: Дикая Охота, ведьмак и друг детства Геральта из
-                    Ривии.
-
-                    Эскель — опытный и искусный охотник на чудовищ, ничем не уступающий Геральту, однако он не снискал
-                    такую славу, как его коллега по цеху. Кроме того, они с Белым Волком одного возраста и вместе прошли
-                    Испытание Травами, жестокий отбор и обучение, после чего стали ведьмаками.
-
-                </p>
-                <p chapter-tab-content="5" class="services_chapter">
-                    <img class="services_pic" src="./assets/images/Yennefer.jpg" alt="services_pic" width="192">
-                    Йеннифэр из Венгерберга (ориг.Yennefer z
-                    Vengerbergu) — одна из главных героев «Саги о Ведьмаке» Анджея Сапковского.
-
-                    Возлюбленная Геральта из Ривии, по факту приёмная мать Цириллы и по совместительству талантливая
-                    чародейка. Входила в состав последнего Совета Чародеев, позднее — в Ложу Чародеек.
-
-                </p>
-                <p chapter-tab-content="6" class="services_chapter">
-                    <img class="services_pic" src="./assets/images/Jaskier.png" alt="services_pic" width="192">
-                    Юлиан Альфред Панкрац виконт де Леттенхоф, более
-                    известный как Лютик (ориг. Jaskier) — один из центральных персонажей литературной саги, а также
-                    последующей игровой серии, лучший друг и неизменный спутник Геральта, известнейший на весь Север
-                    трубадур и поэт.
-
-                </p>
+                    sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </li>
+                <li data-services="3" class="service-tabs-content-item"><img alt="content-pic"
+                                                           src="http://placekitten.com/g/192/139?image=3">03 Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </li>
+                <li data-services="4" class="service-tabs-content-item"><img alt="content-pic"
+                                                           src="http://placekitten.com/g/192/139?image=7">04 Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </li>
+                <li data-services="5" class="service-tabs-content-item"><img alt="content-pic"
+                                                           src="http://placekitten.com/g/192/139?image=10">05 Lorem
+                    ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </li>
+                <li data-services="6" class="service-tabs-content-item"><img alt="content-pic"
+                                                           src="http://placekitten.com/g/192/139?image=12">06 Lorem
+                    ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="just-buy">
+        <div class="more-dark-bckg">
+            <div class="container">
+                <p class="just-buy-heading reset-margin">Everything is ready. just buy and install now</p>
+                <p class="just-buy-content">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and
+                    many many options for you</p>
+                <a href="#" class="link button explore-button">purchase now</a>
             </div>
-        </section>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <h2 class="section-heading">Our Amazing Work</h2>
+            <ul class="work-tabs reset-margin remove-list-markers">
+                <li data-filter="all" class="work-tabs-item active">All</li>
+                <li data-filter="graphic-design" class="work-tabs-item">Graphic Design</li>
+                <li data-filter="web-design" class="work-tabs-item">Web Design</li>
+                <li data-filter="landing-page" class="work-tabs-item">Landing Pages</li>
+                <li data-filter="wordpress" class="work-tabs-item">Wordpress</li>
+            </ul>
+            <ul class="work-tabs-content reset-margin remove-list-markers">
+                <li class="work-tabs-content-item" data-filter="web-design" data-number="1">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="graphic-design" data-number="1">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="landing-page" data-number="1">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="wordpress" data-number="1">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="web-design" data-number="2">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="graphic-design" data-number="2">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="landing-page" data-number="2">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="wordpress" data-number="2">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="web-design" data-number="3">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="graphic-design" data-number="3">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="landing-page" data-number="3">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+                <li class="work-tabs-content-item" data-filter="wordpress" data-number="3">
+                    <div class="work-tabs-content-item-hover-content">
+                        <div class="work-tabs-content-item-hover-content-buttons">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                        <p class="work-tabs-content-item-hover-content-heading reset-margin">creative design</p>
+                        <p class="work-tabs-content-item-hover-content-text reset-margin">Web Design</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="load-more-button">load more</div>
+        </div>
+    </section>
+    <section class="breaking-news">
+        <div class="container">
+            <h2 class="section-heading">Breaking News</h2>
+            <div class="breaking-news-content">
 
-        <section class="section_2">
-            <div class="section_2_content">
-                <h1 class="sec2_content_title">
-                    Everything is ready. just buy and install now
-                </h1>
-                <h3 class="sec2_content_subtitle">
-                    Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for
-                    you
-                </h3>
-
-                <a class="section_2_btn" href="#">purchase now</a>
-            </div>
-        </section>
-
-        <!-- Our Amazing Work -->
-
-        <section class="section_3">
-            <div class="section_3_content">
-                <h1 class="sec3_content_title">Our Amazing Work</h1>
-
-
-
-                <nav class="nav2_wrap">
-                    <ul class="nav2_menu">
-                        <li data-f="all" class="nav2_list"><a class="nav2_link" href="#">All</a></li>
-                        <li data-f="graphic" class="nav2_list"><a class="nav2_link" href="#">Graphic Design</a></li>
-                        <li data-f="web" class="nav2_list"><a class="nav2_link" href="#">Web Design</a></li>
-                        <li data-f="landing" class="nav2_list"><a class="nav2_link" href="#">Landing Pages</a></li>
-                        <li data-f="wordpress" class="nav2_list"><a class="nav2_link" href="#">Wordpress</a></li>
-                    </ul>
-                </nav>
-
-                <article class="amazWork_pics">
-
-                    <div contentClick="1" class="backTitle amazWork_backtitle wordpress">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/wordpress/wordpress6.jpg"
-                                alt="wordpress">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/01.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
                         </div>
                     </div>
-
-                    <div contentClick="2" class="backTitle amazWork_backtitle graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work1.png" alt="creative design">
-                        </a>
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
                     </div>
-                    <div contentClick="3" class="backTitle amazWork_backtitle web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work2.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="4" class="backTitle amazWork_backtitle landing">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work3.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="5" class="backTitle amazWork_backtitle wordpress">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work4.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="6" class="backTitle amazWork_backtitle wordpress">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work5.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="7" class="backTitle amazWork_backtitle landing">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work6.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="8" class="backTitle amazWork_backtitle landing">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work7.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="9" class="backTitle amazWork_backtitle landing">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work8.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="10" class="backTitle amazWork_backtitle web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work9.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="11" class="backTitle amazWork_backtitle web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work10.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="12" class="backTitle amazWork_backtitle graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW" src="./assets/images/amaz_work11.png" alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-
-
-                    <div contentClick="13" class="backTitle amazWork_backtitle btn_additional graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/graphic design/graphic-design1.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="14" class="backTitle amazWork_backtitle btn_additional graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/graphic design/graphic-design2.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="15" class="backTitle amazWork_backtitle btn_additional graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/graphic design/graphic-design3.jpg"
-                                alt="creative design">
-                        </a>
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="16" class="backTitle amazWork_backtitle btn_additional graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/graphic design/graphic-design4.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div contentClick="17" class="backTitle amazWork_backtitle btn_additional graphic">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/graphic design/graphic-design5.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-
-                    <!--  graph design end -->
-
-
-                    <!-- div for web design -->
-
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design1.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design2.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design3.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design4.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design5.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design6.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                    <div class="backTitle amazWork_backtitle btn_additional web">
-                        <a class="backTitle_link" href="#">
-                            <img class="picture_amazW"
-                                src="./assets/images/Step Project Ham Pictures/Step Project Ham/web design/web-design7.jpg"
-                                alt="creative design">
-                        </a>
-
-                        <div class="thumb_amazWork">
-                            <img class="thumb_pic" src="./assets/images/amazWork_circles.svg" alt="creative design">
-                            <h2>creative design</h2>
-                            <h3>Web Design</h3>
-                        </div>
-                    </div>
-                </article>
-
-                <button class="load_more">
-                    <img class="plus_icon" src="./assets/images/plus_load_more_btn.svg" alt="plus icon">
-                    <p>Load More</p>
-                </button>
-
-            </div>
-            <!-- end -->
-
-
-
-
-
-
-
-
-
-            </div> <!-- wrapper -->
-        </section>
-
-        <!-- breacking news -->
-
-        <section class="section_4">
-            <div class="section_4_content">
-
-                <h1 class="sec4_heading">
-                    Breaking News
-                </h1>
-
-                <article class="break_news_grid">
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-
-                            <img class="break_news_pic" src="./assets/images/break_news1.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-
-                    </a>
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-
-                            <img class="break_news_pic" src="./assets/images/break_news2.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-                            </div>
-                        </div>
-                    </a>
-
-
-
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-                            <img class="break_news_pic" src="./assets/images/break_news3.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-                    </a>
-
-
-
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-                            <img class="break_news_pic" src="./assets/images/break_news4.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-                    </a>
-
-
-
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-                            <img class="break_news_pic" src="./assets/images/break_news5.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-                    </a>
-
-
-                    <a class="break_news_link" href="#">
-
-                        <div class="mini_wrap">
-                            <img class="break_news_pic" src="./assets/images/break_news6.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-                    </a>
-
-
-
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-                            <img class="break_news_pic" src="./assets/images/break_news7.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-                    </a>
-
-
-
-                    <a class="break_news_link" href="#">
-                        <div class="mini_wrap">
-                            <img class="break_news_pic" src="./assets/images/break_news8.png" alt="breaking news">
-                            <div class="date_tag">
-                                <p>12</p>
-                                <p>Feb</p>
-                            </div>
-                            <div class="brekN_link_container">
-                                <h2>Amazing Blog Post</h2>
-                                <p>By admin | 2 comment</p>
-
-                            </div>
-                        </div>
-                    </a>
-
-                </article>
-
-            </div>
-        </section>
-
-        <section class="sec_5">
-            <article class="sec_5_content">
-                <h1 class="sec5_title">What People Say About the Ham</h1>
-
-                <img class="sec5_icon" src="./assets/images/sec5_icon.svg" alt="icon">
-                <p class="person_descrip">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non
-                    dictum odio nisi quis
-                    massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
-                    non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
-
-                <p class="slider_name">Hasan Ali</p>
-                <p class="slider_job">UX Designer</p>
-                <div class="slider_wrapper">
-
-                    <img class="main_person" src="./assets/images/Hasan.png" alt="Hasan">
-
-                    <div class="slider-container">
-                        <ul class="slider-track">
-                            <li class="slider-item"><img width="60px" src="./assets/images/Hasan.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Layer 6.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Layer 7.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Layer 8.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Adalix+Siri+Circle.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Vicki+Chen+Circle.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Michelle+Bao.png"
-                                    alt="person_picture">
-                            </li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Danielle+Bragale+Circle.png"
-                                    alt="person_picture"></li>
-                            <li class="slider-item"><img width="60px" src="./assets/images/Isabella+Reynolds+Circle.png"
-                                    alt="person_picture"></li>
-                        </ul>
-                    </div>
-
-                    <a class="btn-prev"> <img src="./assets/images/arrow.png" alt="left_arrow_btn"></a>
-                    <a class="btn-next"><img class="slider_pic" src="./assets/images/arrow.png"
-                            alt="right_btn_slider"></a>
-
-
                 </div>
 
-            </article>
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/02.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
 
-        </section>
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/03.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
 
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/04.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
 
-    </main>
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/05.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
 
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/06.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
 
-    <footer class="basement">
-        <div class="base_wrap">
-            <p>© Copyright 2015</p>
-            <p>theHam</p>
-            <p>All Rights Reserved</p>
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/07.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
+
+                <div class="breaking-news-content-item">
+                    <div class="img-container">
+                        <img class="" src="./images/breaking%20news/08.png"
+                             alt="">
+                        <div class="in-img-date">
+                            <p class="reset-margin">12</p>
+                            <p class="reset-margin">Feb</p>
+                        </div>
+                    </div>
+                    <p class="breaking-news-content-item-heading reset-margin"><a href="#" class="link">Amazing Blog
+                        Post</a></p>
+                    <div class="breaking-news-content-item-buttons">
+                        <p class="reset-margin"><a href="#" class="link">By admin</a></p>
+                        <p class="reset-margin"><a href="#" class="link">2 comment</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="./assets/js_script/jquery.js"></script>
-    <script src="./assets/js_script/index.js"></script>
-</body>
+    </section>
+    <section class="people-say">
+        <div class="container">
+            <h2 class="section-heading">What People Say About theHam</h2>
+            <div class="carousel">
+                <div class="carousel-tab-item-content" data-person="1">
+                    <div class="carousel-tab-item-content-text">01 Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</div>
+                    <div class="carousel-tab-item-content-person">
+                        <div class="carousel-tab-item-content-person-heading">Sam</div>
+                        <div class="carousel-tab-item-content-person-description">CTO</div>
+                        <div class="carousel-tab-item-content-person-photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-tab-item-content" data-person="2">
+                    <div class="carousel-tab-item-content-text">02 Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</div>
+                    <div class="carousel-tab-item-content-person">
+                        <div class="carousel-tab-item-content-person-heading">Merry</div>
+                        <div class="carousel-tab-item-content-person-description">Software Architect</div>
+                        <div class="carousel-tab-item-content-person-photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-tab-item-content active" data-person="3">
+                    <div class="carousel-tab-item-content-text">03 Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</div>
+                    <div class="carousel-tab-item-content-person">
+                        <div class="carousel-tab-item-content-person-heading">Frodo</div>
+                        <div class="carousel-tab-item-content-person-description">CEO</div>
+                        <div class="carousel-tab-item-content-person-photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-tab-item-content" data-person="4">
+                    <div class="carousel-tab-item-content-text">04 Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</div>
+                    <div class="carousel-tab-item-content-person">
+                        <div class="carousel-tab-item-content-person-heading">Pippin</div>
+                        <div class="carousel-tab-item-content-person-description">Tech Lead</div>
+                        <div class="carousel-tab-item-content-person-photo">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-tabs">
+                    <div class="carousel-left-arrow"></div>
+                    <div class="carousel-tab-item" data-person="1"></div>
+                    <div class="carousel-tab-item" data-person="2"></div>
+                    <div class="carousel-tab-item active" data-person="3"></div>
+                    <div class="carousel-tab-item" data-person="4"></div>
+                    <div class="carousel-right-arrow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+        <p class="reset-margin">© Copyright 2015 <a class="link" href="#">theHam</a></p><p class="reset-margin">All Rights Reserved</p>
+</footer>
 
+<script src="./js/script.js"></script>
+</body>
 </html>
