@@ -1,5 +1,9 @@
 # 1st-step-project-
-1st step-project 
 
-Please check the link: 
- https://miss-kiparis.github.io/1st-step-project-/ 
+<`Link`>: <https://miss-kiparis.github.io/1st-step-project-/>
+
+ > Верстка зроблена тільки під широкоформатні монітори з шириною екрану 1200 пікселів або більше. Не адаптивна. 
+ > Вкладки у секції Our services перемикаються при натисканні мишею.
+ > Кнопка Load more у секції Our amazing work імітує завантаження з сервера нових картинок.
+
+
